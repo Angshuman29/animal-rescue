@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Animal Rescue Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+           
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#adopt">Adopt a Pet</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>About Us</h1>
+            <p>We are a non-profit animal rescue organization dedicated to finding forever homes for animals in need.</p>
+        </section>
+        <section id="adopt">
+            <h1>Adopt a Pet</h1>
+            <ul>
+                <li>
+                    <img src="pet1.jpg" alt="Pet 1">
+                    <h2>Pet 1</h2>
+                    <p>Breed: [Breed]</p>
+                    <p>Age: [Age]</p>
+                    <p>Description: [Description]</p>
+                </li>
+                <!-- Add more pet listings here -->
+            </ul>
+        </section>
+        <section id="donate">
+            <h1>Donate</h1>
+<p>Your donation will help us continue to rescue and care for animals in need.</p>
+            <form>
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount">
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+        <section id="volunteer">
+            <h1>Volunteer</h1>
+            <p>We rely on volunteers to help us care for the animals and assist with events.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Animal Rescue Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
